@@ -202,7 +202,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-11-03 19:29:06 / 修改时间：19:40:57" itemprop="dateCreated datePublished" datetime="2022-11-03T19:29:06+08:00">2022-11-03</time>
+              <time title="创建时间：2022-11-03 19:29:06 / 修改时间：20:23:21" itemprop="dateCreated datePublished" datetime="2022-11-03T19:29:06+08:00">2022-11-03</time>
             </span>
 
           
@@ -216,7 +216,17 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h1><p>记录一个下午时间的效果</p>
+          <h1 id="这是我的第一篇博客"><a href="#这是我的第一篇博客" class="headerlink" title="这是我的第一篇博客"></a>这是我的第一篇博客</h1><p>记录一个下午遇到的问题</p>
+<h2 id="起因：搭建博客"><a href="#起因：搭建博客" class="headerlink" title="起因：搭建博客"></a>起因：搭建博客</h2><p>第一个ques：在配置node全局缓存时将根目录下的modules文件转移到了自建的global文件里，最终导致环境变量混乱，不得已卸载node重装</p>
+<p>注意点：建立global的时候，在里面再创建一个modules空文件夹</p>
+<p>第二个ques：不知道如何创建文本上传</p>
+<p>注意点：git bash里输入 hexo new +文件名</p>
+<p>第三个ques：在最后上传文件的时候碰到了github连接仓库失败</p>
+<p>解：重新连一下就好了。用git bash在根目录：git config –global http.sslVerify “false”</p>
+<p>扩展：因觉得每次修改后都要hexo clean—hexo g—hexo d比较繁琐，索性自己在桌面上创建了一个脚本bat：@echo off E: cd E:\Blog\blog5 hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</p>
+<p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_21808961/article/details/84868482">(9条消息) bat批处理脚本自动部署Hexo博客_蓝蓝223的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/mai-nv-hai-de-xiao-huo-chai-35-19/posts">枫叶 - 知乎 (zhihu.com)</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/tg928600774/article/details/117091962">(9条消息) Git提交代码提示 Connection was reset, errno 10054的一个解决方法_潇I洒的博客-CSDN博客</a></p>
 
       
     </div>
