@@ -20,16 +20,17 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="linux：学习1 tab按键： 【ctrl-c】：  –help man []例如：man date 在man page里面: &#x2F;word &#x2F;usr&#x2F;share&#x2F;doc ^这个是ctrl nano 关机：shutdown—sync 文件管理 user group others ls -al出现的文档类型有十个字符，第一个字符是类型，后九个分为三组，分别为所">
+  <meta name="description" content="文章：Linux命令中特殊符号 - 随风飘落的雨滴 - 博客园 (cnblogs.com) # ~ ； ；； . ‘ ‘ “ “ &#96; &#96;(反单引号) , &#x2F; | !  history命令对！有不同的用法 !$  :	(17条消息) 冒号：在linux bash中的各种用法_Leon_George的博客-CSDN博客 &gt;  递归去学习重定向	-&gt;	在重定向的英文概念中去学习fi">
 <meta property="og:type" content="article">
-<meta property="og:title" content="linux命令学习">
+<meta property="og:title" content="linux学习">
 <meta property="og:url" content="http://example.com/2022/11/10/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/index.html">
 <meta property="og:site_name" content="经验">
-<meta property="og:description" content="linux：学习1 tab按键： 【ctrl-c】：  –help man []例如：man date 在man page里面: &#x2F;word &#x2F;usr&#x2F;share&#x2F;doc ^这个是ctrl nano 关机：shutdown—sync 文件管理 user group others ls -al出现的文档类型有十个字符，第一个字符是类型，后九个分为三组，分别为所">
+<meta property="og:description" content="文章：Linux命令中特殊符号 - 随风飘落的雨滴 - 博客园 (cnblogs.com) # ~ ； ；； . ‘ ‘ “ “ &#96; &#96;(反单引号) , &#x2F; | !  history命令对！有不同的用法 !$  :	(17条消息) 冒号：在linux bash中的各种用法_Leon_George的博客-CSDN博客 &gt;  递归去学习重定向	-&gt;	在重定向的英文概念中去学习fi">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-11-10T11:48:32.000Z">
-<meta property="article:modified_time" content="2022-11-10T13:58:20.249Z">
+<meta property="article:modified_time" content="2022-11-19T08:01:57.411Z">
 <meta property="article:author" content="a3b4c5">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/2022/11/10/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/">
@@ -45,7 +46,7 @@
   };
 </script>
 
-  <title>linux命令学习 | 经验</title>
+  <title>linux学习 | 经验</title>
   
 
 
@@ -183,7 +184,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          linux命令学习
+          linux学习
         </h1>
 
         <div class="post-meta">
@@ -192,10 +193,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-11-10 19:48:32 / 修改时间：21:58:20" itemprop="dateCreated datePublished" datetime="2022-11-10T19:48:32+08:00">2022-11-10</time>
+              <time title="创建时间：2022-11-10 19:48:32" itemprop="dateCreated datePublished" datetime="2022-11-10T19:48:32+08:00">2022-11-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-11-19 16:01:57" itemprop="dateModified" datetime="2022-11-19T16:01:57+08:00">2022-11-19</time>
+              </span>
 
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
@@ -215,21 +222,47 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>linux：学习1</p>
-<p>tab按键：</p>
-<p>【ctrl-c】：</p>
-<p> –help</p>
-<p>man []例如：man date</p>
-<p>在man page里面: &#x2F;word</p>
-<p>&#x2F;usr&#x2F;share&#x2F;doc</p>
-<p>^这个是ctrl</p>
-<p>nano</p>
-<p>关机：shutdown—sync</p>
-<p><strong>文件管理</strong></p>
-<p>user group others</p>
-<p>ls -al出现的文档类型有十个字符，第一个字符是类型，后九个分为三组，分别为所有者、群组和其他人，每组三个rwx，x是执行</p>
-<p>当为[ d]则是目录，例如上表档名为「『.config』的那一行;<br>当为[ -]则是文件，例如上表档名为「『initial-setup-ks.cfg』那一行;<br>若是[ 1]则表示为连结档(link file);<br>若是[ b]则表示为装置文件里面的可供储存的接口设备(可随机存取装置)</p>
-<p>若是[ c ]则表示为装置文件里面的串行端口设备，例如键盘、鼠标(一次性读取装置)</p>
+        <p>文章：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/dirt2/p/5991033.html">Linux命令中特殊符号 - 随风飘落的雨滴 - 博客园 (cnblogs.com)</a></p>
+<p><strong>#</strong></p>
+<p><strong>~</strong></p>
+<p><strong>；</strong></p>
+<p><strong>；；</strong></p>
+<p><strong>.</strong></p>
+<p><strong>‘ ‘</strong></p>
+<p><strong>“ “</strong></p>
+<p><strong>` `</strong>(反单引号)</p>
+<p><strong>,</strong></p>
+<p><strong>&#x2F;</strong></p>
+<p><strong>|</strong></p>
+<p><strong>!</strong></p>
+<blockquote>
+<p>history命令对！有不同的用法</p>
+<p>!$</p>
+</blockquote>
+<p><strong>:</strong>	<a target="_blank" rel="noopener" href="https://blog.csdn.net/liangzc1124/article/details/105005642">(17条消息) 冒号：在linux bash中的各种用法_Leon_George的博客-CSDN博客</a></p>
+<p><strong>&gt;</strong></p>
+<blockquote>
+<p>递归去学习重定向	-&gt;	在重定向的英文概念中去学习file handle：<a target="_blank" rel="noopener" href="https://blog.csdn.net/u013256816/article/details/60778709">(17条消息) 文件句柄（file handles） &amp; 文件描述符（file descriptors）_朱小厮的博客-CSDN博客</a></p>
+<p>-&gt;句柄：<a target="_blank" rel="noopener" href="https://blog.csdn.net/wyx0224/article/details/83385168">(17条消息) 句柄详解，什么是句柄？句柄有什么用？__Stack_的博客-CSDN博客</a></p>
+<h3 id="句柄-handler"><a href="#句柄-handler" class="headerlink" title="句柄(handler)"></a>句柄(handler)</h3><p>指向对象，和某一个对象一一对应 </p>
+<p>通常为整数值，没有数据格式</p>
+<p>类似指针</p>
+<p>可以通过句柄操控对象</p>
+<p>Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell.<br>Redirection allows <strong>commands’ file handles</strong> to be duplicated, opened, closed, made to refer to different files, and can change the files the command reads from and writes to.</p>
+<p>If the file descriptor number is omitted, and the first character of the redirection operator is &lt;, the redirection refers to the standard input (file descriptor 0).<br>If the first character of the redirection operator is &gt;, the redirection refers to the standard output (file descriptor 1).</p>
+<p>Redirections using file descriptors greater than 9 should be used with care, as they may conflict with file descriptors the shell uses internally.</p>
+<h3 id="重定向："><a href="#重定向：" class="headerlink" title="重定向："></a>重定向：</h3><h4 id="输入和输出的重定向"><a href="#输入和输出的重定向" class="headerlink" title="输入和输出的重定向"></a>输入和输出的重定向</h4><h5 id="输入重定向：输入的默认文件是键盘，使用-lt-后面跟着文件，来重定向"><a href="#输入重定向：输入的默认文件是键盘，使用-lt-后面跟着文件，来重定向" class="headerlink" title="输入重定向：输入的默认文件是键盘，使用	&lt;	后面跟着文件，来重定向"></a>输入重定向：输入的默认文件是键盘，使用	<strong>&lt;</strong>	后面跟着文件，来重定向</h5><p>ex：cat默认是从键盘并输出到控制台	<strong>cat &#x2F;etc&#x2F;passwd <u>等价</u> cat &lt; &#x2F;etc&#x2F;passwd</strong></p>
+<h6 id="命令-lt-文件1-gt-文件2"><a href="#命令-lt-文件1-gt-文件2" class="headerlink" title="命令 &lt; 文件1 &gt; 文件2"></a>命令 &lt; 文件1 &gt; 文件2</h6><p>该命令从文件1读入，输出到文件2中</p>
+<h6 id="lt-lt"><a href="#lt-lt" class="headerlink" title="&lt;&lt;:"></a><strong>&lt;&lt;</strong>:</h6><p>ex：cat &lt;&lt;0</p>
+<p>该指令会一直等待输入，直到标识符0出现才结束</p>
+<h3 id="输出重定向：-gt-gt-gt-2-gt-gt"><a href="#输出重定向：-gt-gt-gt-2-gt-gt" class="headerlink" title="输出重定向：&gt;	&gt;&gt;	2&gt;&gt;"></a>输出重定向：&gt;	&gt;&gt;	2&gt;&gt;</h3><h4 id="标准输出重定向："><a href="#标准输出重定向：" class="headerlink" title="标准输出重定向："></a>标准输出重定向：</h4><p><strong>命令 &gt; 文件1</strong></p>
+<p>清空文件1的内容，将命令的输出写入文件1</p>
+<p><strong>命令 &gt;&gt; 文件1</strong></p>
+<p>将命令的输出写入文件1的末尾</p>
+<h4 id="错误输出重定向："><a href="#错误输出重定向：" class="headerlink" title="错误输出重定向："></a>错误输出重定向：</h4><p><strong>命令 2&gt;&gt; 文件1</strong></p>
+<p>把命令的错误信息写入文件1末尾，标准输出到默认设备</p>
+</blockquote>
+<h4 id="和"><a href="#和" class="headerlink" title="* 和**"></a>* 和**</h4><p>*是通配匹配符	**是次方运算	如：2**3&#x3D;8</p>
 
     </div>
 
@@ -245,7 +278,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2022/11/10/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/" title="linux命令学习">http://example.com/2022/11/10/linux命令学习/</a>
+    <a href="http://example.com/2022/11/10/linux%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0/" title="linux学习">http://example.com/2022/11/10/linux命令学习/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -255,6 +288,9 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/linux/" rel="tag"># linux</a>
+          </div>
 
         
 
@@ -327,6 +363,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%A5%E6%9F%84-handler"><span class="nav-number">1.</span> <span class="nav-text">句柄(handler)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">重定向：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E5%92%8C%E8%BE%93%E5%87%BA%E7%9A%84%E9%87%8D%E5%AE%9A%E5%90%91"><span class="nav-number">2.1.</span> <span class="nav-text">输入和输出的重定向</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%9A%E8%BE%93%E5%85%A5%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%87%E4%BB%B6%E6%98%AF%E9%94%AE%E7%9B%98%EF%BC%8C%E4%BD%BF%E7%94%A8-lt-%E5%90%8E%E9%9D%A2%E8%B7%9F%E7%9D%80%E6%96%87%E4%BB%B6%EF%BC%8C%E6%9D%A5%E9%87%8D%E5%AE%9A%E5%90%91"><span class="nav-number">2.1.1.</span> <span class="nav-text">输入重定向：输入的默认文件是键盘，使用	&lt;	后面跟着文件，来重定向</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%91%BD%E4%BB%A4-lt-%E6%96%87%E4%BB%B61-gt-%E6%96%87%E4%BB%B62"><span class="nav-number">2.1.1.1.</span> <span class="nav-text">命令 &lt; 文件1 &gt; 文件2</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#lt-lt"><span class="nav-number">2.1.1.2.</span> <span class="nav-text">&lt;&lt;:</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%9A-gt-gt-gt-2-gt-gt"><span class="nav-number">3.</span> <span class="nav-text">输出重定向：&gt;	&gt;&gt;	2&gt;&gt;</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%A0%87%E5%87%86%E8%BE%93%E5%87%BA%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%9A"><span class="nav-number">3.1.</span> <span class="nav-text">标准输出重定向：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%94%99%E8%AF%AF%E8%BE%93%E5%87%BA%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%9A"><span class="nav-number">3.2.</span> <span class="nav-text">错误输出重定向：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%92%8C"><span class="nav-number">3.3.</span> <span class="nav-text">* 和**</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -342,7 +379,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">19</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
